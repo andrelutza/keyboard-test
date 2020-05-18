@@ -24,11 +24,6 @@ export default {
     this.keyboard = new Keyboard({
       onChange: this.onChange,
       onKeyPress: this.onKeyPress,
-      //theme: "hg-theme-default hg-layout-default myTheme",
-      /* display: {
-        '{bksp}': 'del',
-        '{enter}': '< enter',
-      }, */
       layoutName: "default",
       mergeDisplay: true,
     });

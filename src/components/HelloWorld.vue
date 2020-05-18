@@ -1,11 +1,10 @@
 <template>
   <div class="hello">
-    <p>
-      Check this link
-      <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
-    </p>
+    <p>Check this</p>
     <button @click="show_kb = !show_kb">Toggle Keyboard</button>
-    <SimpleKeyboard/>
+    <SimpleKeyboard
+      v-if="show_kb"
+    />
   </div>
 </template>
 
